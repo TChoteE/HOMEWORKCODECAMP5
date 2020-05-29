@@ -18,3 +18,13 @@
 4. เมื่อเรียบร้อยแล้ว ให้ส่ง web site นี้ขึ้น github.io ของตัวเอง
 
 
+5.ให้สร้าง form ชื่อ booking.html โดยมีหน้าตาดังรูป 
+
+
+6.ให้สร้าง phrasebook.html ในแบบ responsive 
+เพื่อสร้างเป็นสมุดโทรศัพท์บน smart phone
+โดยส่งไฟล์ไว้ที่ github.io
+
+ใช้ web browser บน smartphone เข้าไปที่  url
+
+<ชื่อ user>.github.io/phonebook.html
