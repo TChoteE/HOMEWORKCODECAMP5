@@ -8,28 +8,57 @@
 <body>
 
     <form action="">
-         Flying from <br>
+         Flying from 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         To <br>
             <select id="country" name="countries">
               <option value="volvo">Karachi Pakistan</option>
               <option value="saab">Thailand</option>
-              <option value="fiat">Fiat</option>
-              <option value="audi">Audi</option>
-            </select> <br><br>
+              <option value="fiat">United States</option>
+              <option value="audi">Japan</option>
+            </select> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="country" name="countries">
+                <option value="volvo">Karachi Pakistan</option>
+                <option value="saab">Thailand</option>
+                <option value="fiat">United States</option>
+                <option value="audi">Japan</option>
+              </select> <br><br>
 
-        Departing <br>
-            <input type="date"> <br><br>
+        Departing 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Returning
+        <br>
+            <input type="date">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date"> 
+            <br><br>
         
         Adult 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Child
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Infant
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Currency
         <br>
             <input type="number" id="quantity" name="quantity" min="1" max="5" style="width:50px";>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input type="number" id="quantity" name="quantity" min="0" max="5" style="width:50px";>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input type="number" id="quantity" name="quantity" min="0" max="5" style="width:50px";>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <form action="/action_page.php">
+                <select id="cars" name="cars">
+                  <option value="volvo">PKR</option>
+                  <option value="saab">THB</option>
+                  <option value="fiat">USD</option>
+                  <option value="audi">JPY </option>
+                </select>
+        <br><br>
+            <input type="submit" value="Search">
     </form>
 
 </body>
