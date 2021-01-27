@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Exchange Money</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script language="javascript">
+function myFunction1(){
+	var x =Number( document.getElementById("textfield2").value);
+	var y =Number(x*36) ;
+	document.getElementById("textfield3").value =  y ;
+	var q =y;
+	//alert('test');
+if(y>=1000){
+	
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield").value =Math.floor(Number(q/1000));
+	//alert('test');
+	q = q-(document.getElementById("textfield").value*1000);
+}
+if (y>=500) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield4").value =Math.floor(Number(q/500));
+	q = q-(document.getElementById("textfield4").value*500);
+	
+	//alert('test');
+	}
+	if (y>=100) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield5").value =Math.floor(Number(q/100));
+	//alert('test');
+	q = q-(document.getElementById("textfield5").value*100);
+	}
+
+if (y>=50) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield6").value =Math.floor(Number(q/50));
+	//alert('test');
+	q = q-(document.getElementById("textfield6").value*50);
+	}
+
+if (y>=20) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield7").value =Math.floor(Number(q/20));
+	//alert('test');
+	q = q-(document.getElementById("textfield7").value*20);
+	}
+
+if (y>=10) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield8").value =Math.floor(Number(q/10));
+	//alert('test');
+	q = q-(document.getElementById("textfield8").value*10);
+	}
+
+if (y>=5) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield9").value =Math.floor(Number(q/5));
+	//alert('test');
+	q = q-(document.getElementById("textfield9").value*5);
+	}
+if (y>=2) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield10").value =Math.floor(Number(q/2));
+	//alert('test');
+	q = q-(document.getElementById("textfield10").value*2);
+	}
+if (y>=1) {
+	//document.getElementById("textfield1000").value=Math.floor(10.5);
+	document.getElementById("textfield11").value =Math.floor(Number(q/1));
+	//alert('test');
+	q = q-(document.getElementById("textfield11").value*1);
+	}
+
+}
+
+</script>
+</head>
+<body>
+
+    <div class="menubar">
+        <div class="container">
+            <div class="logo">
+                <h1>Smart Exchange Money</h1>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header_area">
+                <h1>Welcome to Smart Exchange Money</h1>
+                <p>"SCC" is just a website to calculate the exchange and tell the number of bank cards.</p>
+            </div>
+        </div>
+	</header>
+	<body bgcolor="#FFFF99">
+		<form id="form1" name="form1" method="post" action="">
+		  <p>
+		  <center>
+			   <h1>อัตราแลกเปลี่ยนเงินตรา</h1>
+			  <p>
+				<label for="textfield2"></label>
+				<input type="text" name="textfield2" id="textfield2"onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}" />
+				<b>ดอลล่า</b>
+				=
+				<label for="textfield3"></label>
+				<input type="text" name="textfield3" id="textfield3" />
+				<b>บาท</b> 
+				<input type="button" name="button" id="button" value="คำนวณ" onclick="myFunction1()" />
+				<input type="reset" name="button2" id="button2" value="ยกเลิก" />
+			  </p>
+			 
+			  
+		  </center> 
+		  </p>
+		
+		  <label for="textfield"></label>
+		  <center>1000 
+		  <input type="text" name="textfield" id="textfield" size="10"/>
+		  <br>500 &nbsp;
+		  <input type="text" name="m1" id="textfield4" size="10"/>
+		  <br>100 &nbsp;
+		  <input type="text" name="m2" id="textfield5" size="10"/>
+		  <br>50 &nbsp;&nbsp;&nbsp;
+		  <input type="text" name="m3" id="textfield6" size="10"/>
+		  <br>20 &nbsp;&nbsp;&nbsp;
+		  <input type="text" name="m4" id="textfield7" size="10"/>
+		  <br>10 &nbsp;&nbsp;&nbsp;
+		  <input type="text" name="m5" id="textfield8" size="10"/>
+		  <br>5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  <input type="text" name="m5" id="textfield9" size="10"/>
+		  <br>2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  <input type="text" name="m5" id="textfield10" size="10"/>
+		  <br>1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  <input type="text" name="m5" id="textfield11" size="10"/>
+			  <p>
+				  <img src=https://thaihitz.com/wp-content/uploads/2020/03/content_1.png
+				alt="bear" style="border-radius: 10px; width: 300px; height: 200px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src=http://www.horonumber.com/upload/uppic/1406104554.jpg
+				alt="bear" style="border-radius: 10px; width: 300px; height: 200px;">
+			</p>
+		</form>
+		</body>
+		</html>
